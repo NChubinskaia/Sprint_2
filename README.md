@@ -1,5 +1,5 @@
-# qa_python
-## Сlass BookCollector. Unit-test description
+# qa_python sprint_2
+## Сlass BookCollector. Test description
 
 1. **test_add_new_book_add_two_books** </br>
 *при добавлении в двух книг в словарь с помощью метода add_new_book() - 
@@ -8,17 +8,17 @@
 
 2. **test_add_new_book_book_already_in_dict_dict_not_changes** </br>
 *при попытке добавить книгу, которая уже есть в словаре, 
-длина словаря не изменяется и книга по-прежнему остается в словаре*
+длина словаря не изменяется*
 
 
 3. **test_set_book_rating_rating8_rating_changes** </br>
 *при использовании валидного значения (от 1 до 10) в методе set_book_rating(),
-рейтинг соответствующей книги изменяется в словаре*
+рейтинг соответствующей книги изменяется на выставленный*
 
 
 4. **test_set_book_rating_zero_rating_not_change_rating** </br>
 *при использовании невалидного значения (например, 0) в методе set_book_rating(),
-рейтинг соответствующей книги **не** изменяется в словаре*
+рейтинг соответствующей книги **не** изменяется*
 
 
 5. **test_get_book_rating_rating6_true** </br>
@@ -45,19 +45,19 @@
 
 9. **test_add_book_in_favorites_one_new_book_in_favorites_true** </br>
 *при вызове метода add_book_in_favorites, книга
-записывается в список favorites и длина списка соответствует 
+записывается в список избранных и длина списка соответствует 
 количеству добавленных книг*
 
 
 10. **test_delete_book_from_favorites_true** </br>
 *при вызове метода delete_book_from_favorites_book, книга
-из списка favorites удаляется и длина списка соответствует 
+из списка избранных удаляется и длина списка соответствует 
 количеству оставшихся книг*
 
     
 11. **test_delete_book_from_favorites_book_not_in_list_list_not_changes** </br>
 *при вызове метода delete_book_from_favorites, книга, которой нет
-в списке favorites не удаляется и длина списка не изменяется*
+в списке избранных не удаляется и длина списка не изменяется*
 
 12. **test_get_list_of_favorites_books_true** </br>
 *при вызове метода get_list_of_favorites, выводятся все книги, которые добавлены в список,
